@@ -1,0 +1,30 @@
+{
+  "name": "eventhub",
+  "version": "1.0.0",
+  "description": "Scalable Playwright UI and API automation for EventHub ticket booking",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "account:register": "tsx tools/register-test-account.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "eventhub",
+    "e2e",
+    "api-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^16.6.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

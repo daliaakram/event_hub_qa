@@ -15,6 +15,11 @@ The target app and API default to:
 
 Override them in `.env` when using a non-production environment. Copy `.env.example` to `.env`, then set the account credentials. Do not commit `.env`.
 
+## Credentials for a registered user
+
+- Username: dalia@example.com
+- Password: MyPassword123!
+
 ## First-time setup
 
 ```powershell
@@ -122,7 +127,7 @@ Additional cases cover UI login and signup validation, invalid booking details, 
 - Scenario for when an event is free.
 
 
-### Findings
+## Findings
 
 # System Limitations
 
